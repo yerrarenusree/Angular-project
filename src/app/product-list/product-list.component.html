@@ -1,0 +1,19 @@
+<h2 class="product-heading">Products</h2>
+<div class="padding-card" *ngFor="let product of products">
+    <div class="card">
+        <a [title]="product.name + ' details'">
+            <h3>
+                {{ product.name }}
+            </h3>
+        </a>
+
+        <p *ngIf="product.description">
+            Description: {{ product.description }}
+        </p>
+
+        <button type="button" (click)="share()">
+            Share
+        </button>
+    </div>
+</div>
+

@@ -1,0 +1,12 @@
+.product-heading {
+    color: #1976d2;
+}
+.card {
+  border: 1px solid #cccc;
+  border-radius: 6px;
+  width: 100%;
+  padding: 20px;
+}
+.padding-card {
+    padding-bottom: 20px;
+}

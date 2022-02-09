@@ -1,0 +1,12 @@
+.brand-logo {
+    display: flex;
+    flex-direction: row;
+}
+.store-icon {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}
